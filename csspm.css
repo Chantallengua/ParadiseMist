@@ -168,6 +168,8 @@ li {
 	font-weight: 100;
 	font-family: 'Lora';
 	color:black;
+	padding-right: 22px;
+	text-align: justify;
 }
 	
 .divblock{
