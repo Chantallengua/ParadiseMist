@@ -70,7 +70,7 @@ border-color: #12100e;
 	
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 812px) {
 	.short-text { display: none; }
 	.title {font-size:22px; padding-top:20px; padding-bottom:20px;}
 	.text {font-size:16px; padding-left:35px; padding-right:35px;}
