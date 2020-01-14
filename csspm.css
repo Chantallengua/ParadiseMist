@@ -58,6 +58,12 @@ border-color: #12100e;
   width: 25px;
 }
 
+.short-text { display: none; }
+
+@media (max-width: 1200px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
 
 .profile {
 float:left; width:250px; margin-right:22px; margin-top:5px; border-radius: 8px;
