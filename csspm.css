@@ -65,7 +65,8 @@ border-color: #12100e;
     .full-text { display: none; }
 	
 	.title {font-size:18px; padding-top:8px; padding-bottom:8px;}
-	.text {font-size:14px; padding-left:10px; padding-right:10px; background:yellow;}
+	.text {font-size:14px; padding-left:5px; padding-right:5px;}
+	.profile {margin-bottom:20px;}
 	li {font-size: 14px; padding-right:10px;}
 	
 }
@@ -75,6 +76,7 @@ border-color: #12100e;
 	.title {font-size:22px; padding-top:20px; padding-bottom:20px;}
 	.text {font-size:16px; padding-left:35px; padding-right:35px;}
 	li {font-size: 16px; padding-right:30px;}	
+	.profile {margin-bottom:5px; }
 }
 
 .profile {
@@ -86,7 +88,6 @@ border-radius: 8px;
   display: block;
   max-width: 100%;
   height: auto;
-  margin-bottom:5px;
   box-shadow: 2px 2px 20px #12100e;
 }
 
