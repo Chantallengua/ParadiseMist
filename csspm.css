@@ -60,7 +60,7 @@ border-color: #12100e;
 
 .short-text { display: none; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 812px) and (orientation : portrait) {
     .short-text { display: inline-block; }
     .full-text { display: none; }
 	
