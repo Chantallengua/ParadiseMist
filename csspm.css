@@ -63,6 +63,15 @@ border-color: #12100e;
 @media (max-width: 1200px) {
     .short-text { display: inline-block; }
     .full-text { display: none; }
+	
+	.title {font-size:20px; padding-top:10px; padding-bottom:10px;}
+	.text {font-size:14px; padding-left:15px; padding-right:15px;}
+	li {font-size: 14px; padding-right:10px;}
+	
+}
+
+@media (max-width: 1200px) {    
+    .full-text { display: none; }
 }
 
 .profile {
