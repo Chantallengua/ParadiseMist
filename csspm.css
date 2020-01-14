@@ -60,22 +60,21 @@ border-color: #12100e;
 
 .short-text { display: none; }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     .short-text { display: inline-block; }
     .full-text { display: none; }
 	
-	.title {font-size:20px; padding-top:10px; padding-bottom:10px;}
-	.text {font-size:14px; padding-left:15px; padding-right:15px;}
+	.title {font-size:18px; padding-top:8px; padding-bottom:8px;}
+	.text {font-size:14px; padding-left:10px; padding-right:10px;}
 	li {font-size: 14px; padding-right:10px;}
 	
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 600px) {
 	.short-text { display: none; }
 	.title {font-size:22px; padding-top:20px; padding-bottom:20px;}
 	.text {font-size:16px; padding-left:35px; padding-right:35px;}
-	li {font-size: 16px; padding-right:30px;}
-	
+	li {font-size: 16px; padding-right:30px;}	
 }
 
 .profile {
@@ -157,21 +156,15 @@ border-radius: 8px;
 }
 
 .title {
-	font-size: 22px;
 	font-weight: 100;
 	font-style: italic;
 	font-family: 'Lora';
 	letter-spacing: 1.5px;
 	text-align: center;
 	color:black;
-		padding-top: 20px;
-	padding-bottom: 20px;
 }
 
 .text {
-	padding-left: 35px;
-	padding-right: 35px;	
-	font-size: 16px;
 	line-height: 1.75;
 	font-weight: 100;
 	font-family: 'Lora';
@@ -181,12 +174,10 @@ border-radius: 8px;
 }
 
 li {
-	font-size: 16px;
 	line-height: 1.75;
 	font-weight: 100;
 	font-family: 'Lora';
 	color:black;
-	padding-right: 30px;
 	text-align: justify;
 }
 	
